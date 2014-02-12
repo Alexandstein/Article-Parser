@@ -1,0 +1,21 @@
+-------------------
+News article parser
+-------------------
+	This is just a personal project of mine which I am using to streamline  posting
+news articles to a science blog from command line. Eventually it will be more cleaned up
+and streamlined (also including more news site formats) but for now it's a rough outline
+that only parses Gawker media's io9 article.
+
+-------------------
+Software used
+-------------------
+	Besides the Python standard libraries this parser also uses BeautifulSoup for HTML parsing
+and Tumblr-rb for posting from the command line.
+
+-------------------
+Usage
+-------------------
+	Usage is fairly simple at this point, after changing the __main__ section to the desired
+blog to post to. You run the script in Terminal with the url of an io9 article as an 
+argument. From there it posts to the drafts of the selected blog. (Though this can be 
+changed in the YAML temlate file.)
