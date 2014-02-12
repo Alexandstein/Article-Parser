@@ -1,0 +1,9 @@
+---
+type: photo
+link: %(url)s
+source: %(image)s
+state: draft
+tags: %(tags)s
+caption: "%(body)s (<a href=\"%(url)s\">Read More</a>)"
+---
+
