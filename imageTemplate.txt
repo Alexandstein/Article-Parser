@@ -2,8 +2,7 @@
 type: photo
 link: %(url)s
 source: %(image)s
-state: draft
+state: queue
 tags: %(tags)s
-caption: "%(body)s (<a href=\"%(url)s\">Read More</a>)"
+caption: "%(body)s</br>(<a href=\"%(url)s\">Read More</a>)"
 ---
-
